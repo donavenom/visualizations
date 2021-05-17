@@ -52,7 +52,7 @@ I used color to separate type of COVID-19 case (active vs deaths vs recovered). 
 As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
 
 *Narrative analysis*    
-The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
+The stacked histogram illustrates the distribution of confirmed COVID-19 cases broken down by month and type of case. The months span March 2020 to March 2021. As can be seen from the visualization, the distribution for individuals who recovered from COVID-29 is greater than the number of active COVID-29 cases at each month starting from May 2020.
 
 ## Faceted waffle bar chart
 ![3-Faceted waffle bar chart](https://user-images.githubusercontent.com/44620594/118350639-87165980-b51d-11eb-9701-6db1e83efbe3.png)    
@@ -79,7 +79,7 @@ I used color to separate type of COVID-19 case (active vs deaths vs recovered). 
 As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
 
 *Narrative analysis*    
-The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
+The faceted waffle bar chart illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
 
 ## Edge bundle chart
 ![4-Edge bundle chart](https://user-images.githubusercontent.com/44620594/118350640-87165980-b51d-11eb-8838-21e615a2c0e5.png)    
@@ -106,7 +106,7 @@ I used color to separate type of COVID-19 case (active vs deaths vs recovered). 
 As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
 
 *Narrative analysis*    
-The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
+The edge bundle chart illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
 
 ## Line graph
 ![5-Line chart](https://user-images.githubusercontent.com/44620594/118350641-87165980-b51d-11eb-8a47-ef0c8c850b58.png)    
@@ -133,7 +133,7 @@ I used color to separate type of COVID-19 case (active vs deaths vs recovered). 
 As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
 
 *Narrative analysis*    
-The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
+The line graph illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
 
 ## Chord diagram
 ![6-Chord diagram](https://user-images.githubusercontent.com/44620594/118350642-87165980-b51d-11eb-9544-93a0f1d0514e.png)    
@@ -160,4 +160,4 @@ I used color to separate type of COVID-19 case (active vs deaths vs recovered). 
 As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
 
 *Narrative analysis*    
-The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
+The chord diagram illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
