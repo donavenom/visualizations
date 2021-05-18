@@ -21,7 +21,7 @@ The x-/y-axis are labeled appropriately to provide viewers with information to m
 I used color to separate type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
 
 *Principle 7 - Utilize narratives of space and time*    
-The position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
+The position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization. Beyond that, I do not know how else I could incorporate space and time to inform the narrative.
 
 *Narrative analysis*    
 The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
@@ -46,10 +46,10 @@ Multivariate data did not escape the two-dimensional flatlands, but presentation
 The x-/y-axis are labeled appropriately to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means.
 
 *Principle 6 - Utilize layering and separation*    
-I used color to separate type of confirmed COVID-19 case (recovered vs deaths vs active). In hindsight, I could have kept the same order for the COVID-19 type as in the jittered dot plot.
+I used color to separate type of confirmed COVID-19 case (recovered vs deaths vs active). In hindsight, I could have kept the same order for the COVID-19 type as in the jittered dot plot. I layered the three distributions on top of each other.
 
 *Principle 7 - Utilize narratives of space and time*    
-The lines are portrayed across several months, utilizing time to inform the narrative.
+The x-axis line on which the distributions are portrayed demonstrate changes in the distributions across several months, utilizing time to inform the narrative. Beyond that, I do not know how else I could incorporate space and time to inform the narrative.
 
 *Narrative analysis*    
 The stacked histogram illustrates the distribution of confirmed COVID-19 cases broken down by month and type of case. The months span March 2020 to March 2021. As can be seen from the visualization, the distribution for individuals who recovered from COVID-29 is greater than the number of active COVID-29 cases at each month starting from May 2020.
@@ -70,13 +70,13 @@ I feel like this chart conforms to maximizing data density as I am displaying th
 Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using color for age group.
 
 *Principle 5 - Provide the user with an overview and details*    
-The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
+The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means for age group.
 
 *Principle 6 - Utilize layering and separation*    
-I used color to separate type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
+I used color to separate age groups. Also, I increased separation between each "waffle" when I widened the  plot margins.
 
 *Principle 7 - Utilize narratives of space and time*    
-I am not sure what I could have done here for this type of chart.
+Given the data, I do not see how I could introduce space and time to help drive the narrative.
 
 *Narrative analysis*    
 The faceted waffle bar chart illustrates the proportion of confirmed COVID-19 cases in TX, grouped by sex and age group. Data displays a snapshot of the month of April, 2021.
@@ -99,13 +99,13 @@ I could have maximzied data density by manipulating thickness levels to the line
 As only two variables were presented (Question # and association), a two-dimensional flatland was suitable.
 
 *Principle 5 - Provide the user with an overview and details*    
-The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
+The chart is labeled appropriately to orient viewers. I would have liked to add a legend to describe what the red lines mean, but the R package that I used is not very customizable and thus I was unable to do so.
 
 *Principle 6 - Utilize layering and separation*    
-I used color to separate type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
+I increased the space between each Question and manipulated all lines to come closer together. This made identifying which Question the lines come from and go to much easier.
 
 *Principle 7 - Utilize narratives of space and time*    
-As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
+Given the data, I do not see how I could introduce space and time to help drive the narrative.
 
 *Narrative analysis*    
 The edge bundle chart illustrates moderate to strong associations between 12 questions of a trauma-informed care tool, with each line representing an association between two questions. As shown in the chart, moderate to strong associations are present between all questions, except for Question 1 with Questions 4, 5, and 8. Lines going from Question 1 are shown in red to highlight the absence of moderate or strong associations with Questions 4, 5, and 8.
@@ -128,13 +128,13 @@ I feel like this graph conforms to maximizing data density as I am displaying th
 Multivariate data did not escape the two-dimensional flatlands, and I know see that I could have enhanced presentation of multivariate data using colors (i.e., one color for each data type). In my pursuit for a simple graph, I overlooked this potential improvement.
 
 *Principle 5 - Provide the user with an overview and details*    
-The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
+The y-axis is labeled appropriately to provide viewers with information to make sense of the graph. While the x-axis does not provide all of the months, I feel that the two labels provide enough information to orient the viewer. I could have provided labels or a legend to differentiate the fitted line, confidence intervals, and residuals, but I - at the moment - had difficulty doing this in R.
 
 *Principle 6 - Utilize layering and separation*    
-I used color to separate type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
+In extending the margins, I also increased separation between the fitted line, confidence intervals, and residuals. 
 
 *Principle 7 - Utilize narratives of space and time*    
-As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
+The x-axis line on which the distributions are portrayed demonstrate changes in the fitted line, confidence intervals, and residuals across months, utilizing time to inform the narrative. Beyond that, I do not know how else I could incorporate space and time to inform the narrative.
 
 *Narrative analysis*    
 The line graph illustrates estimated COVID-19 infection rates in TX, with estimated infection rates displayed in the thousands. The data spans from March 2020 to March 2021. The data visualization shows that there is greater uncertainty of the estimated infection rates for the months of December and January, as indicated by the residuals and wider confidence intervals.
@@ -158,13 +158,13 @@ Data density is maximized by including varying line thickness to represent thick
 Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using line thickness for p-value.
 
 *Principle 5 - Provide the user with an overview and details*    
-The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
+The chart is labeled appropriately to orient viewers. I would have liked to add a legend to describe what line thickness levels mean, but I had difficulty doing that in R.
 
 *Principle 6 - Utilize layering and separation*    
-I used color to separate type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
+I introduced spacing between each Question to better differentiate which Question the lines come from and go to.
 
 *Principle 7 - Utilize narratives of space and time*    
-As a general benefit of dot plots, the position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization.
+Given the data, I do not see how I could introduce space and time to help drive the narrative.
 
 *Narrative analysis*    
 The chord diagram illustrates p-values corresponding to associations between 12 questions in the trauma-informed care tool. Larger lines represent larger p-values, while smaller lines represent smaller p-values. The largest lines are found between Question 1 with Question 4, 5, and 8. This illustration corroborates the weak the associations between these questions which were previously illustrated in the edge bundle chart.
