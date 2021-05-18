@@ -6,7 +6,7 @@
 Unnecessary borders and lines were removed. The present lines -- the dotted horizontal lines -- serve as guiding markers to help viewers clarify which dots belong to which months as the dots extend further away from the name of the months found on the y-axis. I also scaled daily COVID-19 cases to thousands in order to save "ink".
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
+I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here to improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
 I feel like this plot conforms to maximizing data density as I am displaying three sources of information (months, counts of daily reported COVID-19 cases, and types of COVID-19 cases). As for maximizing the size of the data matrix, I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
@@ -18,10 +18,10 @@ Multivariate data did not escape the two-dimensional flatlands, but presentation
 The x-/y-axis are labeled appropriately to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
 
 *Principle 6 - Utilize layering and separation*    
-I used color to separate type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
+I used color to separate the type of COVID-19 case (active vs deaths vs recovered). Also, I provided a particular color and shape to the month average of daily COVID-19 cases.
 
 *Principle 7 - Utilize narratives of space and time*    
-The position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximine value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization. Beyond that, I do not know how else I could incorporate space and time to inform the narrative.
+The position of a dot on its corresponding dotted horizontal line informs the viewer the space a) between each dot, b) between the dot and 0, and c) between each dot and the maximum value. These anchors provide a clear narrative to the viewer of the daily amounts of COVID-19 cases per month, which is the intention of the data visualization. Beyond that, I do not know how else I could incorporate space and time to inform the narrative.
 
 *Narrative analysis*    
 The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
@@ -81,7 +81,7 @@ Given the data, I do not see how I could introduce space and time to help drive 
 
 *Narrative analysis*    
 The faceted waffle bar chart illustrates the proportion of confirmed COVID-19 cases in TX, grouped by sex and age group. Data displays a snapshot of the month of April, 2021.
-As can be seen from the visualization, higher proportions of males had onfirmed COVID-19 cases -- specifically, males between the ages of 18 to 49. After maies, individuals with no provided sex information had the highest proportions of confirmed COVID-19 cases, which included individuals between 18 to 49 yr olds as well as individuals 65 and older. On the other hand, females between the ages of 18 and 49 had the lowest proportions of onfirmed COVID-19 cases. 
+As can be seen from the visualization, higher proportions of males had confirmed COVID-19 cases -- specifically, males between the ages of 18 to 49. After maies, individuals with no provided sex information had the highest proportions of confirmed COVID-19 cases, which included individuals between 18 to 49 yr olds as well as individuals 65 and older. On the other hand, females between the ages of 18 and 49 had the lowest proportions of confirmed COVID-19 cases. 
 
 
 ## Edge bundle chart
@@ -94,7 +94,7 @@ Only necessary graphic elements were kept.
 I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-I could have maximzied data density by manipulating thickness levels to the lines or by color coding the lines based on association ranges. However, my intention is to illustrate the assocations of Question 1 to other Questions, so I did not want to detract from that narrative. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
+I could have maximized data density by manipulating thickness levels to the lines or by color coding the lines based on association ranges. However, my intention is to illustrate the associations of Question 1 to other Questions, so I did not want to detract from that narrative. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
 
 *Principle 4 - Escape flatland*    
 As only two variables were presented (Question # and association), a two-dimensional flatland was suitable.
@@ -144,13 +144,13 @@ The line graph illustrates estimated COVID-19 infection rates in TX, with estima
 ![6-Chord diagram](https://user-images.githubusercontent.com/44620594/118350642-87165980-b51d-11eb-9544-93a0f1d0514e.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Only necessary graphic elements were kept. Perhaps I could have shrunk the outer-most thick layer, which is a solid black, but I felt that making it thick would facilitate matching the inner lines and the questions to which they belong.
+Only necessary graphic elements were kept. Perhaps I could have shrunk the outermost thick layer, which is a solid black, but I felt that making it thick would facilitate matching the inner lines and the questions to which they belong.
 
 *Principle 2 - Mobilize every graphical element to show the data*    
 I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-Data density is maximized by including varying line thickness to represent thicker or smaller p-values. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
+Data density is maximized by including varying line thickness to represent thicker or smaller p-values. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here to improve on this principle.
 
 *Principle 4 - Escape flatland*    
 Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using line thickness for p-value.
