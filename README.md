@@ -54,6 +54,7 @@ The x-axis line on which the distributions are portrayed demonstrate changes in 
 *Narrative analysis*    
 The stacked histogram illustrates the distribution of confirmed COVID-19 cases broken down by month and type of case. The months span March 2020 to March 2021. As can be seen from the visualization, the distribution for individuals who recovered from COVID-29 is greater than the number of active COVID-29 cases at each month starting from May 2020.
 
+
 ## Faceted waffle bar chart
 ![3-Faceted waffle bar chart](https://user-images.githubusercontent.com/44620594/118350639-87165980-b51d-11eb-9701-6db1e83efbe3.png)    
     
@@ -80,7 +81,7 @@ Given the data, I do not see how I could introduce space and time to help drive 
 
 *Narrative analysis*    
 The faceted waffle bar chart illustrates the proportion of confirmed COVID-19 cases in TX, grouped by sex and age group. Data displays a snapshot of the month of April, 2021.
-As can be seen from the visualization, higher proportions of males had onfirmed COVID-19 cases - specifically, males between the ages of 18 to 49. After maies, individuals with no provided sex information had the highest proportions of confirmed COVID-19 cases, which included individuals between 18 to 49 yr olds as well as individuals 65 and older. On the other hand, females between the ages of 18 and 49 had the lowest proportions of onfirmed COVID-19 cases. 
+As can be seen from the visualization, higher proportions of males had onfirmed COVID-19 cases -- specifically, males between the ages of 18 to 49. After maies, individuals with no provided sex information had the highest proportions of confirmed COVID-19 cases, which included individuals between 18 to 49 yr olds as well as individuals 65 and older. On the other hand, females between the ages of 18 and 49 had the lowest proportions of onfirmed COVID-19 cases. 
 
 
 ## Edge bundle chart
@@ -111,12 +112,11 @@ Given the data, I do not see how I could introduce space and time to help drive 
 The edge bundle chart illustrates moderate to strong associations between 12 questions of a trauma-informed care tool, with each line representing an association between two questions. As shown in the chart, moderate to strong associations are present between all questions, except for Question 1 with Questions 4, 5, and 8. Lines going from Question 1 are shown in red to highlight the absence of moderate or strong associations with Questions 4, 5, and 8.
 
 
-
 ## Line graph
 ![5-Line chart](https://user-images.githubusercontent.com/44620594/118350641-87165980-b51d-11eb-8a47-ef0c8c850b58.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Unnecessary borders and lines were removed. Further, I removed all months from the x-axis except for the first and last month (March 2020 and March 2021). While unconventional, I felt that keeping all of the months added clutter to the fitted line, confidence intervals, and residuals - all of which are the main focus of the visualization. I also added dotted horizontal lines for guiding purposes. I also scaled COVID-19 cases to thousands in order to save "ink".
+Unnecessary borders and lines were removed. Further, I removed all months from the x-axis except for the first and last month (March 2020 and March 2021). While unconventional, I felt that keeping all of the months added clutter to the fitted line, confidence intervals, and residuals -- all of which are the main focus of the visualization. I also added dotted horizontal lines for guiding purposes. I also scaled COVID-19 cases to thousands in order to save "ink".
 
 *Principle 2 - Mobilize every graphical element to show the data*    
 After removing unnecessary and distracting graphical elements, I feel like this type of chart conforms well to this principle. I have not identified any graphical element that obstructs the data.
@@ -128,7 +128,7 @@ I feel like this graph conforms to maximizing data density as I am displaying th
 Multivariate data did not escape the two-dimensional flatlands, and I know see that I could have enhanced presentation of multivariate data using colors (i.e., one color for each data type). In my pursuit for a simple graph, I overlooked this potential improvement.
 
 *Principle 5 - Provide the user with an overview and details*    
-The y-axis is labeled appropriately to provide viewers with information to make sense of the graph. While the x-axis does not provide all of the months, I feel that the two labels provide enough information to orient the viewer. I could have provided labels or a legend to differentiate the fitted line, confidence intervals, and residuals, but I - at the moment - had difficulty doing this in R.
+The y-axis is labeled appropriately to provide viewers with information to make sense of the graph. While the x-axis does not provide all of the months, I feel that the two labels provide enough information to orient the viewer. I could have provided labels or a legend to differentiate the fitted line, confidence intervals, and residuals, but I -- at the moment -- had difficulty doing this in R.
 
 *Principle 6 - Utilize layering and separation*    
 In extending the margins, I also increased separation between the fitted line, confidence intervals, and residuals. 
@@ -139,8 +139,6 @@ The x-axis line on which the distributions are portrayed demonstrate changes in 
 *Narrative analysis*    
 The line graph illustrates estimated COVID-19 infection rates in TX, with estimated infection rates displayed in the thousands. The data spans from March 2020 to March 2021. The data visualization shows that there is greater uncertainty of the estimated infection rates for the months of December and January, as indicated by the residuals and wider confidence intervals.
 
-
-amounts of COVID-19 cases -- broken down by month and type of case -- in the USA from October 2020 to March 2021. As can be seen from the visualization, the month of January 2021 saw some of the highest number of daily reported COVID cases, reaching up to 300,000, while the months of October 2020 and March 2021.
 
 ## Chord diagram
 ![6-Chord diagram](https://user-images.githubusercontent.com/44620594/118350642-87165980-b51d-11eb-9544-93a0f1d0514e.png)    
