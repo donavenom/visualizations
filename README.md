@@ -3,13 +3,13 @@
 ![1-Jittered dot plot](https://user-images.githubusercontent.com/44620594/118350637-867dc300-b51d-11eb-975f-52c0f2dc2ee7.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Unnecessary borders and lines were removed. The present lines -- the dotted horizontal lines -- serve as guiding markers to help viewers clarify which dots belong to which months as the dots extend further away from the name of the months found on the y-axis.
+Unnecessary borders and lines were removed. The present lines -- the dotted horizontal lines -- serve as guiding markers to help viewers clarify which dots belong to which months as the dots extend further away from the name of the months found on the y-axis. I also scaled daily COVID-19 cases to thousands in order to save "ink".
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. I also scaled daily COVID-19 cases to thousands in order to maximize space.
+I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
+I feel like this plot conforms to maximizing data density as I am displaying three sources of information (months, counts of daily reported COVID-19 cases, and types of COVID-19 cases). As for maximizing the size of the data matrix, I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
 
 *Principle 4 - Escape flatland*    
 I used color to display multivariate data (months and type of COVID-19 case).
@@ -31,13 +31,13 @@ The jittered dot plot illustrates daily amounts of COVID-19 cases -- broken down
 ![2-Stacked histogram](https://user-images.githubusercontent.com/44620594/118350638-867dc300-b51d-11eb-8f9a-9c74cefee391.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Unnecessary borders and lines were removed. The horizontal lines were added to help viewers identify where sections of each distribution falls along the y-axis.
+Unnecessary borders and lines were removed. The horizontal lines were added to help viewers identify where sections of each distribution falls along the y-axis. I also scaled confirmed COVID-19 cases to millions in order to save "ink".
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I increased the plot margins to allow for the distributions to take up more space, and I moved the legend into the chart area.
+I feel like this chart conforms to this principle fairly well, as the shape of each distribution is visible despite the presence of overlap. I understand that this principle might be improved if I used multiplots to display each distribution. However, I feel comparison between distributions is much easier by stacking them, given the similarity of each distribution.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-I am not sure what I could have done here for this type of graph. 
+I feel like this plot conforms to maximizing data density as I am displaying three sources of information (months, number of confirmed COVID-19 cases, and types of COVID-19 cases). As for maximizing the size of the data matrix, I increased the plot margins to allow for the distributions to take up more space. Also, I moved the legend into the chart area to allow more space for the data matrix.
 
 *Principle 4 - Escape flatland*    
 I used color to display multivariate data (months and type of confirmed COVID-19 case).
@@ -61,10 +61,10 @@ The stacked histogram illustrates the distribution of confirmed COVID-19 cases b
 Unnecessary borders and lines were removed.
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I increased the plot margins to allow for more space between the dots and increased the space between each "waffle".
+I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-The default waffle size settings made this did not require any adjustments. Data was 
+I feel like this chart conforms to maximizing data density as I am displaying three sources of information (sex, counts of lab-confirmed COVID-19 cases, and age group). As for maximizing the size of the data matrix, I widened the plot margins to allow for more separation between each "waffle".
 
 *Principle 4 - Escape flatland*    
 I used color to display multivariate data (months and type of COVID-19 case).
@@ -87,13 +87,13 @@ As can be seen from the visualization, higher proportions of males had onfirmed 
 ![4-Edge bundle chart](https://user-images.githubusercontent.com/44620594/118350640-87165980-b51d-11eb-8838-21e615a2c0e5.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Unnecessary borders and lines were removed. The present lines -- the dotted horizontal lines -- serve as guiding markers to help viewers clarify which dots belong to which months as the dots extend further away from the name of the months found on the y-axis.
+Only necessary graphic elements were kept.
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. I also scaled daily COVID-19 cases to thousands in order to maximize space.
+I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
+I could have maximzied data density by manipulating thickness levels to the lines or by color coding the lines based on association ranges. However, my intention is to illustrate the assocations of Question 1 to other Questions, so I did not want to detract from that narrative. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
 
 *Principle 4 - Escape flatland*    
 I used color to display multivariate data (months and type of COVID-19 case).
@@ -116,13 +116,13 @@ The edge bundle chart illustrates moderate to strong associations between 12 que
 ![5-Line chart](https://user-images.githubusercontent.com/44620594/118350641-87165980-b51d-11eb-8a47-ef0c8c850b58.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Unnecessary borders and lines were removed. The present lines -- the dotted horizontal lines -- serve as guiding markers to help viewers clarify which dots belong to which months as the dots extend further away from the name of the months found on the y-axis.
+Unnecessary borders and lines were removed. Further, I removed all months from the x-axis except for the first and last month (March 2020 and March 2021). While unconventional, I felt that keeping all of the months added clutter to the fitted line, confidence intervals, and residuals - all of which are the main focus of the visualization. I also added dotted horizontal lines for guiding purposes. I also scaled COVID-19 cases to thousands in order to save "ink".
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. I also scaled daily COVID-19 cases to thousands in order to maximize space.
+After removing unnecessary and distracting graphical elements, I feel like this type of chart conforms well to this principle. I have not identified any graphical element that obstructs the data.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
+I feel like this graph conforms to maximizing data density as I am displaying three sources of information (fitted line, confidence intervals, and residuals). Also, I extended the margins a little bit to allow more space for the data matrix.
 
 *Principle 4 - Escape flatland*    
 I used color to display multivariate data (months and type of COVID-19 case).
@@ -146,13 +146,13 @@ amounts of COVID-19 cases -- broken down by month and type of case -- in the USA
 ![6-Chord diagram](https://user-images.githubusercontent.com/44620594/118350642-87165980-b51d-11eb-9544-93a0f1d0514e.png)    
     
 *Principle 1 - Maximizing the data-ink ratio*    
-Unnecessary borders and lines were removed. The present lines -- the dotted horizontal lines -- serve as guiding markers to help viewers clarify which dots belong to which months as the dots extend further away from the name of the months found on the y-axis.
+Only necessary graphic elements were kept. Perhaps I could have shrunk the outer-most thick layer, which is a solid black, but I felt that making it thick would facilitate matching the inner lines and the questions to which they belong.
 
 *Principle 2 - Mobilize every graphical element to show the data*    
-I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. I also scaled daily COVID-19 cases to thousands in order to maximize space.
+I feel like this type of chart already conforms to this principle, as every data point is unobstructed by graphical elements and clearly distinguishable. I am not sure what I could have done here improve on this principle.
 
 *Principle 3 - Maximize data density and the size of the data matrix*    
-At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
+Data density is maximized by including varying line thickness to represent thicker or smaller p-values. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
 
 *Principle 4 - Escape flatland*    
 I used color to display multivariate data (months and type of COVID-19 case).
