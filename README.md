@@ -12,7 +12,7 @@ I feel like this type of chart already conforms to this principle, as every data
 I feel like this plot conforms to maximizing data density as I am displaying three sources of information (months, counts of daily reported COVID-19 cases, and types of COVID-19 cases). As for maximizing the size of the data matrix, I increased the plot margins to allow for more space between the dots and pushed out the x-/y-axis labels closer to the outer limits. At first, I played around with shrinking the data points but this effort made it more difficult to discern how many cases each dot represented. I ultimately chose to make the data dots a bit larger.
 
 *Principle 4 - Escape flatland*    
-I used color to display multivariate data (months and type of COVID-19 case).
+Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using color for type of COVID-19 case.
 
 *Principle 5 - Provide the user with an overview and details*    
 The x-/y-axis are labeled appropriately to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
@@ -40,7 +40,7 @@ I feel like this chart conforms to this principle fairly well, as the shape of e
 I feel like this plot conforms to maximizing data density as I am displaying three sources of information (months, number of confirmed COVID-19 cases, and types of COVID-19 cases). As for maximizing the size of the data matrix, I increased the plot margins to allow for the distributions to take up more space. Also, I moved the legend into the chart area to allow more space for the data matrix.
 
 *Principle 4 - Escape flatland*    
-I used color to display multivariate data (months and type of confirmed COVID-19 case).
+Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using color for type of COVID-19 case.
 
 *Principle 5 - Provide the user with an overview and details*    
 The x-/y-axis are labeled appropriately to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means.
@@ -67,7 +67,7 @@ I feel like this type of chart already conforms to this principle, as every data
 I feel like this chart conforms to maximizing data density as I am displaying three sources of information (sex, counts of lab-confirmed COVID-19 cases, and age group). As for maximizing the size of the data matrix, I widened the plot margins to allow for more separation between each "waffle".
 
 *Principle 4 - Escape flatland*    
-I used color to display multivariate data (months and type of COVID-19 case).
+Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using color for age group.
 
 *Principle 5 - Provide the user with an overview and details*    
 The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
@@ -96,7 +96,7 @@ I feel like this type of chart already conforms to this principle, as every data
 I could have maximzied data density by manipulating thickness levels to the lines or by color coding the lines based on association ranges. However, my intention is to illustrate the assocations of Question 1 to other Questions, so I did not want to detract from that narrative. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
 
 *Principle 4 - Escape flatland*    
-I used color to display multivariate data (months and type of COVID-19 case).
+As only two variables were presented (Question # and association), a two-dimensional flatland was suitable.
 
 *Principle 5 - Provide the user with an overview and details*    
 The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
@@ -125,7 +125,7 @@ After removing unnecessary and distracting graphical elements, I feel like this 
 I feel like this graph conforms to maximizing data density as I am displaying three sources of information (fitted line, confidence intervals, and residuals). Also, I extended the margins a little bit to allow more space for the data matrix.
 
 *Principle 4 - Escape flatland*    
-I used color to display multivariate data (months and type of COVID-19 case).
+Multivariate data did not escape the two-dimensional flatlands, and I know see that I could have enhanced presentation of multivariate data using colors (i.e., one color for each data type). In my pursuit for a simple graph, I overlooked this potential improvement.
 
 *Principle 5 - Provide the user with an overview and details*    
 The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
@@ -155,7 +155,7 @@ I feel like this type of chart already conforms to this principle, as every data
 Data density is maximized by including varying line thickness to represent thicker or smaller p-values. As for maximizing the size of the data matrix, I feel like this type of chart already conforms to this principle, given that the data matrix makes up most of the visualization. I am not sure what I could have done here improve on this principle.
 
 *Principle 4 - Escape flatland*    
-I used color to display multivariate data (months and type of COVID-19 case).
+Multivariate data did not escape the two-dimensional flatlands, but presentation of multivariate data was enhanced using line thickness for p-value.
 
 *Principle 5 - Provide the user with an overview and details*    
 The x-/y-axis are labeled appropriate to provide viewers with information to make sense of the graph. Further, I provided a legend describing what each color means. One thing I could have done, but admittedly had difficulty doing, is to provide a red diamond-shaped label in the legend indicating that the red diamond in the graph represents the month average of daily COVID-19 cases.
